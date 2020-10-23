@@ -1,0 +1,20 @@
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <!-- <th scope="col">Id</th> -->
+            <th scope="col">Event Name</th>
+            <th scope="col">Local Event</th>
+            <th scope="col">Date</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="customer">
+        <tr *ngFor="let event of customer.events">
+            <!-- <th scope="row" >{{ event.eventId }}</th> -->
+            <td>{{ event.nameEvent }}</td>
+            <td>{{ event.localEvent }}</td>
+            <td>{{ event.dateEvent }}</td>
+            <td>{{ event.deleteEvent }}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: grey;
+    padding: 1em;
+    transition: box-shadow .3s;
+    margin-right: 5%;
+    margin-bottom: auto;
+    width: 20%;
+    height: auto;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+ul p {
+    color: white;
+    margin: 0;
+}
+
+p.customerName {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+button {
+    margin-top: 0.5cm;
+    
+}
+
+.modal-body p {
+    color: black;
+}
+
+
+
